@@ -6871,7 +6871,6 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto', sans-serif;
-  color: #111111;
   font-weight: 400;
   margin: 6px 0 6px 0;
 }
@@ -7292,6 +7291,7 @@ figure.aligncenter {
   font-size: 15px;
   line-height: 26px;
   color: #222;
+  /*color: #706758;*/
 }
 .td-page-content a:hover,
 .td-post-content a:hover,
@@ -11288,7 +11288,7 @@ blockquote.pull-right:after {
     Block Wrap
 */
 .td_block_wrap {
-  margin-bottom: 48px;
+  /*margin-bottom: 48px;*/
   position: relative;
   clear: both;
   /* responsive portrait phone */
@@ -11324,6 +11324,7 @@ blockquote.pull-right:after {
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
+  /*margin-top: 20px !important;*/
 }
 .td_with_ajax_pagination {
   transform: translate3d(0, 0, 0);
@@ -27972,7 +27973,7 @@ body .td-page-title {
     Default page template
 */
 .td-main-content-wrap {
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
   /* responsive portrait phone */
 }
 @media (max-width: 767px) {

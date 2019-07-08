@@ -118,22 +118,34 @@
 .woocommerce .product #respond input#submit,
 .woocommerce .checkout input#place_order,
 .woocommerce .woocommerce.widget .button {
-  border: none;
   box-shadow: none;
   color: #fff;
-  background: none #222;
-  font-size: 11px;
+  background: #EAA133;
+  font-size: 12px;
   padding: 10px;
   text-shadow: none;
-  border-radius: 0;
+  border-radius: 20px;
+  border: 1px solid white;
+  line-height: 15px;
   /* responsive portrait tablet */
   /* responsive portrait phone */
 }
+
+/*.woocommerce .product a.button:hover{*/
+
+  /*background: white!important;*/
+  /*color:  #EAA133;*/
+  /*border: 1px solid #EAA133;*/
+
+/*}*/
 .woocommerce .product a.button:hover,
 .woocommerce .product #respond input#submit:hover,
 .woocommerce .checkout input#place_order:hover,
 .woocommerce .woocommerce.widget .button:hover {
-  background-color: #4db2ec;
+  /*background-color: #4db2ec;*/
+  background: white!important;
+  color:  #EAA133;
+  border: 1px solid #EAA133;
 }
 @media (min-width: 768px) and (max-width: 1018px) {
   .woocommerce .product a.button,
@@ -163,6 +175,7 @@
 }
 .woocommerce ul.products li.product {
   /* responsive portrait phone */
+  text-align: center;
 }
 @media (max-width: 767px) {
   .woocommerce ul.products li.product {
@@ -187,6 +200,7 @@
   font-weight: 500;
   line-height: 19px;
   padding-top: 0;
+  color: #6d5348;
   /* responsive portrait phone */
 }
 @media (max-width: 767px) {
@@ -196,7 +210,7 @@
 }
 .woocommerce ul.products li.product .price {
   font-weight: 600;
-  color: #111;
+  color: #6d5348;
   font-size: 14px;
   /* responsive portrait phone */
 }
@@ -437,7 +451,7 @@
   font-size: 11px;
   padding: 9px 10px 10px;
   text-shadow: none;
-  border-radius: 0;
+  border-radius: 15px;
 }
 .woocommerce-cart .woocommerce table.cart .button:hover,
 .woocommerce-cart .woocommerce .shipping-calculator-form .button:hover {
@@ -645,7 +659,7 @@
   font-size: 11px;
   padding: 10px;
   text-shadow: none;
-  border-radius: 0;
+  border-radius: 25px;
 }
 .woocommerce-checkout .woocommerce input.button:hover,
 .woocommerce-page .woocommerce a.button:hover,

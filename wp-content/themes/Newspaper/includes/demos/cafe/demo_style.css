@@ -131,7 +131,7 @@
   }
 }
 .td-cafe .td-menu-products {
-  margin-bottom: 27px;
+  /*margin-bottom: 27px;*/
 }
 @media (max-width: 767px) {
   .td-cafe .td-menu-products {
@@ -140,8 +140,8 @@
 }
 .td-cafe .td-menu-products .product-wrap {
   position: relative;
-  margin-bottom: 35px;
-  margin-top: 5px;
+  /*margin-bottom: 35px;*/
+  /*margin-top: 5px;*/
 }
 .td-cafe .td-menu-products .product-wrap:last-child {
   margin-bottom: 0;
